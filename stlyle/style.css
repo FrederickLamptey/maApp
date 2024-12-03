@@ -352,16 +352,27 @@ a:link {
   max-width: 50rem;
 }
 
-.last-pic-sec-sub-block {
+/* .last-pic-sec-sub-block {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #c92a2a;
+  background-color: #AF1740;
   width: 10rem;
-}
+  height: 2rem;
+} */
 
 .last-pic-sec-sub {
+  display: inline-block;
+  background-color: #AF1740;
   color: white;
+  padding: 10px 20px;
+  font-size: 1.6rem;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.last-pic-sec-sub:hover {
+  background-color: #CC2B52;
 }
 
 .empty-div {
@@ -403,4 +414,16 @@ a:link {
 
 .address {
   width: 14rem;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #AF1740;
+  height: 5rem;
+}
+
+.copyright {
+  color: white;
 }
