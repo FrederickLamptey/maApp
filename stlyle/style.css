@@ -427,3 +427,40 @@ footer {
 .copyright {
   color: white;
 }
+
+
+@media (max-width: 84em) {
+
+  .first-div {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+  }
+
+  .card-box {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .card {
+    width: 30rem;
+  }
+
+  nav {
+    width: 90rem;
+  }
+
+  .tiled-pic-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .last-pic-sec-inscript-container {
+   left: 30%;
+  }
+
+  .l-sec-list-container {
+    gap: 3rem;
+  }
+
+}
