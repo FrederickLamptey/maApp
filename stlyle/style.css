@@ -363,7 +363,7 @@ a:link {
 
 .last-pic-sec-sub {
   display: inline-block;
-  background-color: #AF1740;
+  background-color: #af1740;
   color: white;
   padding: 10px 20px;
   font-size: 1.6rem;
@@ -372,7 +372,7 @@ a:link {
 }
 
 .last-pic-sec-sub:hover {
-  background-color: #CC2B52;
+  background-color: #cc2b52;
 }
 
 .empty-div {
@@ -401,7 +401,6 @@ a:link {
   padding-top: 5rem;
 }
 
-
 .long-el {
   width: 20rem;
 }
@@ -420,7 +419,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #AF1740;
+  background-color: #af1740;
   height: 5rem;
 }
 
@@ -428,9 +427,7 @@ footer {
   color: white;
 }
 
-
 @media (max-width: 84em) {
-
   .first-div {
     display: flex;
     justify-content: center;
@@ -441,12 +438,10 @@ footer {
     display: flex;
     justify-content: center;
   }
-  
+
   .card {
     width: 30rem;
   }
-
-
 
   .tiled-pic-container {
     display: grid;
@@ -454,19 +449,31 @@ footer {
   }
 
   .last-pic-sec-inscript-container {
-   left: 30%;
+    left: 30%;
   }
 
   .l-sec-list-container {
     gap: 3rem;
   }
-
 }
 
 @media (max-width: 75em) {
-
-    html {
+  html {
     /* 9px / 16px */
     font-size: 56.25%;
+  }
+}
+
+/* Below 944px (tablets(Portrait)) */
+@media (max-width: 59em) {
+  html {
+    /* 8px / 16px = 0.5 = 50% */
+    font-size: 50%;
+  }
+
+  .tiled-pic {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
 }
