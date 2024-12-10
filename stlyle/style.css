@@ -365,6 +365,7 @@ a:link {
   display: inline-block;
   background-color: #af1740;
   color: white;
+  cursor: pointer;
   padding: 10px 20px;
   font-size: 1.6rem;
   font-weight: bold;
