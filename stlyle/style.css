@@ -427,6 +427,7 @@ footer {
   color: white;
 }
 
+/* Below 1344px (Smaller desktops) */
 @media (max-width: 84em) {
   .first-div {
     display: flex;
@@ -457,6 +458,7 @@ footer {
   }
 }
 
+/* Below 1200px (landscape tablets) */
 @media (max-width: 75em) {
   html {
     /* 9px / 16px */
