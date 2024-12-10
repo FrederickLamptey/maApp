@@ -485,3 +485,26 @@ footer {
     object-fit: cover;
   }
 }
+
+/* Below 704px (Smaller tablets)  */
+
+@media (max-width: 44em) {
+
+  header{
+    width: 94rem;
+  }
+
+  nav {
+    width: 90rem;
+    /* margin-right: 30rem; */
+  }
+
+  .card-box, .picture-section, .last-pic-sec, .l-sec, .empty-div, footer {
+    width: 94rem;
+  }
+
+  .tiled-pic-container, .thinking-about-2-container {
+    margin-left: 5rem;
+  }
+  
+}
