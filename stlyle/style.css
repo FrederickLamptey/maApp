@@ -466,7 +466,7 @@ footer {
     font-size: 56.25%;
   }
 
-   .tiled-pic {
+  .tiled-pic {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -490,8 +490,7 @@ footer {
 /* Below 704px (Smaller tablets)  */
 
 @media (max-width: 44em) {
-
-  header{
+  header {
     width: 94rem;
   }
 
@@ -500,12 +499,128 @@ footer {
     /* margin-right: 30rem; */
   }
 
-  .card-box, .picture-section, .last-pic-sec, .l-sec, .empty-div, footer {
+  .card-box,
+  .picture-section,
+  .last-pic-sec,
+  .l-sec,
+  .empty-div,
+  footer {
     width: 94rem;
   }
 
-  .tiled-pic-container, .thinking-about-2-container {
+  .tiled-pic-container,
+  .thinking-about-2-container {
     margin-left: 5rem;
   }
-  
+}
+
+/* Below 544px (Phones)  */
+@media (max-width: 34em) {
+  .first-div {
+    margin-left: 18rem;
+    width: 60rem;
+    gap: 2rem;
+  }
+
+  .ppp {
+    width: 30rem;
+    font-size: 1.8rem;
+  }
+
+  .first-div-small {
+    word-spacing: 2px;
+    font-size: 1.5rem;
+  }
+
+  .second-div {
+    width: 30rem;
+  }
+
+  .card-content-mini-header {
+    font-size: 2.5rem;
+  }
+
+  .card-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .card-content-para {
+    font-size: 1.8rem;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  .unknown-sec-big-text {
+    width: 90rem;
+    margin-left: 20rem;
+  }
+
+  .unknown-sec-small-text {
+    font-size: 1.8rem;
+    width: 90rem;
+    margin-left: 20rem;
+  }
+
+  .unknown-sec-img {
+    margin-left: 30rem;
+    width: 70rem;
+  }
+
+  .social-media-container {
+    margin-left: 20rem;
+  }
+
+  .thinking-about-1-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .click-here,
+  .Subscription {
+    font-size: 1.5rem;
+  }
+
+  .time-posted {
+    font-size: 1.2rem;
+  }
+
+  .form-info-small-text {
+    font-size: 1.4rem;
+    width: 31rem;
+  }
+
+  .s-labels {
+    font-size: 1.2rem;
+  }
+
+  .sub-btn {
+    max-width: 10rem;
+  }
+
+  .l-sec-list-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 10rem;
+  }
+
+  .div-1 {
+    display: none;
+  }
+
+  .l-sec-list-element {
+    font-size: 1.5rem;
+    word-spacing: 1.5;
+    letter-spacing: 0.3px;
+  }
+
+  .l-sec-list-title {
+    font-size: 1.8rem;
+  }
+
+  .l-sec-list-element.long-el {
+    width: 50rem;
+  }
 }
