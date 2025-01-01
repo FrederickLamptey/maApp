@@ -19,6 +19,7 @@ body {
 nav {
   display: flex;
   justify-content: space-between;
+ margin: 0 2rem;
 }
 
 header {
@@ -442,7 +443,7 @@ footer {
   }
 
   .card {
-    width: 30rem;
+   max-width: 30rem;
   }
 
   .tiled-pic-container {
@@ -516,7 +517,106 @@ footer {
 
 /* Below 544px (Phones)  */
 @media (max-width: 34em) {
+
+ html {
+  max-width: 100%;
+ }
+
+ body {
+  overflow-x: hidden;
+}
+
+  header, .picture-section, .last-pic-sec {
+    max-width: 100%;
+    height: 60rem;
+  }
+
+  nav {
+    display: flex;
+    justify-content: start;
+    gap: 38rem;
+  }
+
+  p {
+    font-size: 1.8rem;
+  }
+
+  .header-container {
+    width: 18rem;
+  }
+
   .first-div {
+    max-width: 100rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+
+  .first-div-small {
+    font-size: 1.5rem;
+    width: 38rem;
+  }
+
+  .card-box {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+  }
+
+
+  .card {
+    max-width: 100%;
+  }
+
+  /* .card-content-mini-header {
+    font-size: 1.8rem;
+  } */
+
+  .card-content-para {
+    font-size: 1.5rem;
+  }
+
+  .unknown-sec-big-text {
+    font-size: 3rem;
+    line-height: 1.2;
+  }
+
+
+  .unknown-sec-small-text {
+    font-size: 1.5rem;
+  }
+
+
+  .unknown-sec-img {
+    width: 45rem;
+    height: 45rem;
+  }
+
+  .form-info-small-text {
+    font-size: 1.5rem;
+    width: 30rem;
+    padding-right: 3rem;
+  }
+
+  .last-pic-sec-inscript {
+    font-size: 3rem;
+    width: 90rem;
+    padding-right: 55rem;
+  }
+
+  .last-pic-sec-sub-block {
+    width: 50rem;
+  }
+
+  .last-pic-sec-sub {
+    margin-left: 10rem;
+  }
+  /* .main-heading {
+    margin-right: 10rem;
+  } */
+
+  /* .first-div {
     margin-left: 18rem;
     width: 60rem;
     gap: 2rem;
@@ -623,4 +723,19 @@ footer {
   .l-sec-list-element.long-el {
     width: 50rem;
   }
+
+.tiled-pic-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-right: 10rem;
+}
+
+.tiled-pic {
+  width: 25rem;
+}
+
+.social-media-container {
+  gap: 5rem;
+  
+} */
 }
