@@ -19,7 +19,7 @@ body {
 nav {
   display: flex;
   justify-content: space-between;
- margin: 0 2rem;
+  margin: 0 2rem;
 }
 
 header {
@@ -443,7 +443,7 @@ footer {
   }
 
   .card {
-   max-width: 30rem;
+    max-width: 30rem;
   }
 
   .tiled-pic-container {
@@ -517,16 +517,17 @@ footer {
 
 /* Below 544px (Phones)  */
 @media (max-width: 34em) {
+  html {
+    max-width: 100%;
+  }
 
- html {
-  max-width: 100%;
- }
+  body {
+    overflow-x: hidden;
+  }
 
- body {
-  overflow-x: hidden;
-}
-
-  header, .picture-section, .last-pic-sec {
+  header,
+  .picture-section,
+  .last-pic-sec {
     max-width: 100%;
     height: 60rem;
   }
@@ -552,7 +553,6 @@ footer {
     justify-content: center;
   }
 
-
   .first-div-small {
     font-size: 1.5rem;
     width: 38rem;
@@ -563,7 +563,6 @@ footer {
     flex-direction: column;
     max-width: 100%;
   }
-
 
   .card {
     max-width: 100%;
@@ -582,11 +581,9 @@ footer {
     line-height: 1.2;
   }
 
-
   .unknown-sec-small-text {
     font-size: 1.5rem;
   }
-
 
   .unknown-sec-img {
     width: 45rem;
@@ -615,6 +612,30 @@ footer {
 
   .last-pic-sec-sub {
     margin-left: 10rem;
+  }
+
+  .l-sec-list-container {
+    display: grid;
+    row-gap: 5rem;
+    padding-right: 40rem;
+  }
+
+  .div-1 {
+    display: none;
+  }
+
+  .l-sec-list-element {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    word-spacing: 1px;
+  }
+
+  .long-el {
+    width: 47rem;
+  }
+
+  .copyright {
+    padding-right: 42rem;
   }
   /* .main-heading {
     margin-right: 10rem;
