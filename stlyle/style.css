@@ -535,7 +535,7 @@ footer {
   nav {
     display: flex;
     justify-content: start;
-    gap: 38rem;
+    gap: 30rem;
   }
 
   p {
